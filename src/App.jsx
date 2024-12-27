@@ -1,5 +1,5 @@
-import ClientView from './Components/CLientView/clientView'
-import './App.css'
+import { ClientView } from './Components/CLientView/ClientView'
+
 
 function App() {
 

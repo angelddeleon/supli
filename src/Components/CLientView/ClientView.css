@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #0d103f;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 6em;
+    margin: 0 1em;
+}
+
+.searchBar {
+    border: .18em solid var(--primary-color);
+    padding: .3em;
+    border-radius: 1em;
+    transition: .5s;
+}
+
+
+input {
+    height: 1.4em;
+    width: 20em;
+    border: none;
+    padding: .5em;
+    transition: .5s;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.searchBar:focus-within {
+    transform: scale(1.1); /* Aumentar el tamaño del contenedor */
+}
+
+.icon {
+    color: var(--primary-color);
+}
+
+.CartAndUser{
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin: 0 1em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.CartAndUser{
+    align-items: center;
+}
+
+a img {
+    width: 2em;
+    border-radius: 1em;
+}
+
+
+.signUp {
+    border: 2px solid var(--primary-color);
+    border-radius: 1em;
+    padding: .5em;
+
+    transition: .5s;
+}
+
+.signUp:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+
+.shoppingCart {
+    font-size: 1em;
+}
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.backgroundImg{
+    margin: 0;
+    padding: 0;
+    height: 40%;
+    width: 100%;
+}
+
+
