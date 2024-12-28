@@ -1,9 +1,8 @@
-import './ClientView.css';
-import Logo from '../../assets/supliLogo.png';
-import userImage from '../../assets/userImage.png';
-import backgroundImg from '../../assets/imgBackground.webp';
-
 import { useState } from 'react';
+
+import '../styles/NavBar.css';
+import Logo from '../assets/supliLogo.png';
+import userImage from '../assets/userImage.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -24,7 +23,7 @@ function CartAndUser () {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     return (
-        <div className='CartAndUser '>
+        <div className='CartAndUser'>
             {isLoggedIn ? (
                 <ul>
                     <li>
@@ -57,25 +56,16 @@ function CartAndUser () {
     );
 }
 
-export function ClientView() {
+export function NavBar() {
     return (
-        <>
-            <header>
-                <img src={Logo} alt="logo" />
 
-                <SearchBar />
+        <nav>
+            <img className='logoImg' src={Logo} alt="logo" />
 
-                <CartAndUser />
+            <SearchBar />
+
+            <CartAndUser />
                
-            </header>
-
-            <main>
-                <img className='backgroundImg' src={backgroundImg} alt="" />
-
-            </main>
-            
-            
-            
-        </>
+        </nav>           
     );
 }

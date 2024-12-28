@@ -2,13 +2,13 @@
     --primary-color: #0d103f;
 }
 
-header {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-img {
+.logoImg {
     width: 6em;
     margin: 0 1em;
 }
@@ -21,7 +21,7 @@ img {
 }
 
 
-input {
+.searchBar input {
     height: 1.4em;
     width: 20em;
     border: none;
@@ -29,7 +29,7 @@ input {
     transition: .5s;
 }
 
-input:focus {
+.searchBar input:focus {
     border: none;
     outline: none;
 }
@@ -44,28 +44,26 @@ input:focus {
 
 .CartAndUser{
     display: flex;
+    align-items: center;
 }
 
-ul {
+.CartAndUser ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-li {
+.CartAndUser li {
     margin: 0 1em;
 }
 
-a{
+.CartAndUser a{
     text-decoration: none;
     color: var(--primary-color);
 }
 
-.CartAndUser{
-    align-items: center;
-}
 
-a img {
+.CartAndUser a img {
     width: 2em;
     border-radius: 1em;
 }
@@ -91,16 +89,5 @@ a img {
 }
 
 
-main {
-    width: 100vw;
-    height: 100vh;
-}
-
-.backgroundImg{
-    margin: 0;
-    padding: 0;
-    height: 40%;
-    width: 100%;
-}
 
 

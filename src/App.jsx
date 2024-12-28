@@ -1,11 +1,12 @@
-import { ClientView } from './Components/CLientView/ClientView'
+import { NavBar } from './Components/NavBar'
+import { ClientView } from './pages/ClientView'
 
 
 function App() {
 
   return (
     <>
-      <ClientView />
+      <ClientView></ClientView>
     </>
   )
 }
