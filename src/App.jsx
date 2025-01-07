@@ -1,5 +1,6 @@
-import { NavBar } from './Components/NavBar'
 import { ClientView } from './pages/ClientView'
+
+import { SignUp } from './pages/SignUp'
 
 
 function App() {

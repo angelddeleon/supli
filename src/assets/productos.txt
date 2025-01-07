@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "product-image": "imgProduct",
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 2,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 3,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 4,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 5,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 6,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 7,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 8,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 9,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 10,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 11,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 12,
+        "product-name": "Iphone 17",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 13,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 14,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 15,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+    {
+        "id": 16,
+        "product-name": "Iphone 16",
+        "product-description": "El mejor de todos los tiempos 64 gb + 8gb ram..",
+        "proovedor": "tuZonaMarket",
+        "price": 2000
+    },
+]
