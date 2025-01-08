@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router'
 import '../styles/SignUp.css'
 
 
 export function SignUp() {
+
+    const navigate = useNavigate()
 
     async function postSignUp(e) {
         e.preventDefault()
@@ -24,8 +27,13 @@ export function SignUp() {
             if (!response.ok) {
                 throw new Error(`Error: ${response.status}`);
             }
+
+
     
             const data = await response.json(); // Procesar la respuesta JSON
+
+            navigate('/')
+
             console.log(data); // Manejar la respuesta
     
         } catch (error) {

@@ -1,13 +1,11 @@
-import { ClientView } from './pages/ClientView'
 
-import { SignUp } from './pages/SignUp'
-
+import  AppRouter from './routes/index'
 
 function App() {
 
   return (
     <>
-      <ClientView></ClientView>
+      <AppRouter />
     </>
   )
 }

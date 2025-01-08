@@ -4,13 +4,14 @@ import cors from "cors"
 const app = express()
 
 app.use(cors())
+app.use(express.json())
 
 const port = process.env.PORT || 3000
 
 let users = []
 
 app.get("/", (req, res) => {
-    res.send(users)
+    res.send(JSON.stringify(users));
 })
 
 app.post("/signup",(req, res) =>{
@@ -20,10 +21,10 @@ app.post("/signup",(req, res) =>{
         users.push(user)
 
 
-        console.log(`Usuario creado con exito ${user}`)
-        res.sendStatus(200).send(JSON.stringify('Usuario creado con exito')) 
+        console.log(`Usuario creado con exito ${JSON.stringify(user)}`)
+        res.status(200).send(JSON.stringify({ message: 'Usuario creado con éxito. ' })); 
     } catch (error) {
-        res.sendStatus(500).send(JSON.stringify('Error al crear el usuario ' + error))
+        res.status(500).send(JSON.stringify({ error: 'Error al crear el usuario: ' + error }));
     }
     
 })
