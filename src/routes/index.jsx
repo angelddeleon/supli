@@ -1,9 +1,12 @@
-import { RouterProvider } from "react-router"
-import { router } from "./PublicRoutes"
+import { RouterProvider} from "react-router"
+import { router } from "./Routes"
+
 
 const AppRouter = () => {
     return(
-        <RouterProvider router={router} fallback/>
+        <>
+            <RouterProvider router={router} />
+        </>
     )
 }
 
