@@ -1,6 +1,6 @@
 import express from "express"
 import cors from "cors"
-import getVentas from "./postgresql.js"
+import {userRoute} from './routes/user.routes.js'
 
 const app = express()
 
@@ -11,8 +11,7 @@ const port = process.env.PORT || 3000
 
 let users = []
 
-getVentas()
-
+app.use('/users', userRoute)
 
 app.get("/", (req, res) => {
     res.send(JSON.stringify(users));
