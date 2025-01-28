@@ -11,12 +11,12 @@ export function SignUp() {
 
         let email = document.getElementById('email').value
         let password = document.getElementById('password').value
-        let user = document.getElementById('user').value
+        let role = document.getElementById('role').value
 
-        const infoUser = { email, password, user}
+        const infoUser = { email, password, role}
 
         try {
-            const response = await fetch('http://localhost:3000/signup', {
+            const response = await fetch('http://localhost:3000/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json' // Asegúrate de establecer el tipo de contenido
@@ -39,7 +39,7 @@ export function SignUp() {
         }
         
 
-        console.log(`hola ${email}  ${password} ${user} `)
+        console.log(`hola ${email}  ${password} ${role} `)
     }
     
     return(
@@ -51,11 +51,11 @@ export function SignUp() {
                 <input type="text" name='email' id='email'  />
                 <label htmlFor="password">Contrasena</label>
                 <input type="password" name="password" id="password" />
-                <select name="" id="user" >
-                    <option value="Proveedor">
+                <select name="" id="role" >
+                    <option value="supplier">
                         Proveedor
                     </option>
-                    <option value="Cliente">
+                    <option value="client">
                         Cliente
                     </option>
                 </select>

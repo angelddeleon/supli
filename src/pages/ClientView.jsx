@@ -6,7 +6,6 @@ import imgProduct from '../assets/producto.webp'
 import products from '../assets/productos.txt'
 
 
-import { useState } from 'react'
 
 
 
@@ -14,7 +13,6 @@ export function ClientView() {
 
     /*Detects de width */
 
-    let width = window.innerWidth
 
 
     let flecha = '<'
