@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router'
-import '../styles/SignUp.css'
+
+import '../app.css'
 
 
 export function SignIn() {
